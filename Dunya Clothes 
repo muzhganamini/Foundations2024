@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    ol a {
+  list-style:none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dunya Clothes </title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ol>
+
+        <li>
+          <a href="#">About </a>
+
+        </li>
+        <li><a href="#"> Products </a>
+        </li>
+        <li><a href="#">Staff </a>
+        </li>
+        <li><a href="#">Contact Us </a>
+        </li>
+        
+
+    </nav>
+  </header>
+  <main>
+    <h1> Dunya Clothes </h1>
+    <p>
+      <h2>
+        Women Clothes </h2> 
+    </p>
+    <p> welocme to our Store: You can find Varity of traditional clothes with jewlleriesWomen typically wear a dress with loose-fitting pants, called a tunbaan, underneath that goes down to the ankles. A chador (headscarf) is worn to cover the hair.  The use of a hijab, typically worn by women in Iran and other Islamic countries, is also a common way Afghan women cover their hair today. Only very conservative women wear an all covering burqa. During the Taliban rule, all women were forced to wear a burqa when going out of the house. Today, one can find some women, even in Kabul,  still wearing a burqa as they claim it makes them feel safer, and prevents them from being harassed by men. On formal occasions, women wear fancier dresses that have intricate embroidery on it – sometimes small mirrors are sown on the dress. </p>
+    <section>
+      <h2> Men Clothes  </h2>
+      <p> Traditional clothing for men consists of a peraahan tunbaan (shirt/pants) outfit. The tunbaan is made so that the waist is adjustable, and it is adjusted and held up using a cloth cord <strong>(azaarband)</strong>. Men also like to wear some sort of head wear, especially  during formal occasions. The head wear differs according to the the region the person is from..
+      </p>
+
+    </section>
+  </main>
+  <footer>&copy; 2024 </footer>
+
+</body>
+
+</html>
