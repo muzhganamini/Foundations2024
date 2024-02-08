@@ -1,0 +1,41 @@
+  <header>
+    <nav>
+      <ol>
+        <li><a href="#">group 1</a></li>
+        <li><a href="#">group 2</a></li>
+        <li><a href="#">group 3</a></li>
+        <li><a href="#">group 4</a></li>
+        <li><a href="#">group 5</a></li>
+      </ol>
+    </nav>
+  </header>
+  <main>
+
+    <h1>welcome to my page </h1>
+    <p>Here you can find the all group details  </p>
+ <section>
+ <h2>this is my page</h2>
+ <p>this is a <strong>intersting</strong> page.
+ </p>
+ </section>
+</main>
+<footer>&copy; 2024</footer>
+
+    <h1>Welcome</h1>
+    <h2>About My Groups</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime modi omnis minima quos quo inventore consequuntur fugiat numquam, ad repellendus obcaecati pariatur ut optio perferendis commodi temporibus deserunt possimus provident!</p>
+         <ul>
+            Sports Group
+         </ul>
+         <ul>music Group </ul>
+         <ul> History group</ul>
+         <ul>student Groups</ul>
+         <ul> Champions Group</ul>
+            <p> 
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, ut aperiam. Accusantium rerum illum vitae accusamus ex consectetur illo, beatae repellendus, possimus qui distinctio ipsam quas optio at vero culpa?
+            </p>
+              <nav>
+                <ul>
+                  <a href="https.google.com">This is a link to open youtub</a></li>
+                </ul>
+              </nav>
