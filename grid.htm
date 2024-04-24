@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<div>
+        , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid {
+          display: grid; 
+        grid-template-columns:200px 200px 200px 200px;
+        grid-template-rows: 200px 200px 200px 200px;
+
+        }
+        .image {
+            grid-column: 3/ span 2;
+            grid-row: 1/ span 2;
+            background-color: orange;
+        }
+
+        .title {
+            grid-column: 1 /span 2;
+            grid-row: 1;
+            background-color: blue
+
+        
+        }
+
+        .actions-one  {
+            grid-column: 1;
+            grid-row: 2;
+            background-color: bisque;
+            border: 2px white solid;
+
+        }
+        .actions-two {
+            grid-column: 2;
+            grid-row: 2;
+            background-color: black;
+            border: 2px white solid;
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="image"></div>
+        <div class="title"></div>
+        <div class="actions-one"></div>
+        <div class="actions-two"></div>
+
+    </div>
+</body>
+</html>

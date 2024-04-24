@@ -2,6 +2,22 @@
 <html>
 
 <head>
+  <header>
+    <h1>Grid Layout with Header</h1>
+</header>
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Define the grid container */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+  grid-gap: 20px; /* Gap between grid items */
+}
   <style>ol {
   list-style:none;
   display: flex;
@@ -12,7 +28,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
+<style>
 
+</style>
 <body>
   <header>
     <nav>
@@ -48,7 +66,14 @@
   <footer>&copy; 2024 </footer>
 
 </body>
-
+<div class="grid-container">
+  <div class="grid-item">Item 1</div>
+  <div class="grid-item">Item 2</div>
+  <div class="grid-item">Item 3</div>
+  <div class="grid-item">Item 4</div>
+  <div class="grid-item">Item 5</div>
+  <div class="grid-item">Item 6</div>
+</div>
 </html>
 hello world again
 new 
