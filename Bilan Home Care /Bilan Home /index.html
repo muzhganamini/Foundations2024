@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilan Home Care Website Design</title>
+    <link rel="dns-prefetch" href="//maps.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="Index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Program and Services</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Caring Hearts, Comforting Hands</h1>
+            <p>Personalized Nursing Care from the Comfort of Your Own Home</p>
+            <a href="" class="hero-btn">Ask Us A Question!</a>
+        </div>
+    </section>
+
+    <!-- Program and Services Section -->
+  <section class="Services">
+    <h1>Services We offer</h1>
+    <p>Through special telehealth equipment provided to clients, the telehealth services offered by Hillcrest Home Care.</p>
+    <div class="row">
+        <div class="services-list">
+            <h3>Medical Home Care</h3>
+            <p>Doctors and nurses receive medical updates regularly and can assess your status through this innovative program. </p>
+        </div>
+        <div class="services-list">
+            <h3>Personal Care</h3>
+            <p>Doctors and nurses receive medical updates regularly and can assess your status through this innovative program. Hillcrest provides telehealth services at no charge as part of a skilled home health episode. It’s truly a progressive approach to in-home health care in Omaha and surrounding areas.</p>
+        </div>
+        <div class="services-list">
+            <h3>Home Health Services</h3>
+            <p>Doctors and nurses receive medical updates regularly and can assess your status through this innovative program. Hillcrest provides telehealth services at no charge as part of a skilled home health episode. It’s truly a progressive approach to in-home health care in Omaha and surrounding areas.</p>
+        </div>
+    </div>
+</section>
+
+<!---program view-->
+
+<section class="programs">
+    <h1>OUR MOST POPULAR SERVICES</h1>
+    <p>Full support for fuller lives</p>
+    <div class="row1">
+        <div class="programs-col">
+            <img src="images/2.jpg">
+            <h4>MEMORY CARE</h4>
+        </div>
+        <div class="programs-col">
+            <img src="images/care-companionship.jpeg">
+            <h4>CARE AND COMPANIONSHIP</h4>
+        </div>
+        <div class="programs-col">
+            <img src="images/fall-prevention.jpeg">
+            <h4>FALL AND INJURY PREVENTION</h4>
+        </div>
+        <div class="programs-col">
+            <img src="images/wellness.jpeg">
+            <h4>WELLNESS</h4>
+        </div>
+    </div>
+</section>
+<!--Contact us-->>
+
+
+<section class="Contact">
+    <h1>To Know More about our services and locations</h1>
+    <a href="" class="hero-btn"> CONTACT US </a>
+
+
+</section>
+
+    </section>
+    <!-- JavaScript for Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0"; 
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+<!--FOOTER-->
+<SECTION class="footer">
+<h4>
+    About Us
+</h4>
+<p>
+    Find by Clicking to our social media account
+</p>
+<br>
+<!-- .site-info -->
+<div class="sitefooter">
+
+    <div class="sitefooter"> 
+        <a class="sitefooterphone" href="tel:(402) 505-7300"> 
+            
+              <a class="sitefooterlink"href="https://synergyhomecarefranchise.com/"target="blank">Own a Franchise</a>
+        
+        <p class="sitefooterheading">FOLLOW US ONLINE</p>
+    </div>
+
+<div class="icons"> 
+    <i class="fab fa-facebook-f"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-linkedin"></i>
+</div>
+<br>
+<br>
+
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+   
+
+</SECTION>
+</body>
+</html>
