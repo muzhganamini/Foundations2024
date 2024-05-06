@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilan Home Care Website Design</title>
+    <link rel="dns-prefetch" href="//maps.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="Index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                    <li><a href="Service.html">Program and Services</a></li>
+                    <li><a href="Apply.html">Careers</a></li>
+                    <li><a href="Contac.html">Contact us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Caring Hearts, Comforting Hands</h1>
+            <p>Personalized Nursing Care from the Comfort of Your Own Home</p>
+            <a href="" class="hero-btn">Ask Us A Question!</a>
+        </div>
+    </section>
+
+
+    <!-- Banner Start -->
+    <div class="sections-container">
+    <div class="Hours">
+        <div Class="row2">
+                    <div class="column">
+                        <h3>Opening Hours</h3>
+                        <br>
+                
+                        <div>
+                            <h6>Mon - Fri</h6>
+                            <p> 8:00am - 9:00pm</p>
+                        </div>
+                        <div>
+                            <h6>Saturday</h6>
+                            <p> 8:00am - 7:00pm</p>
+                        </div>
+                        <div>
+                            <h6>Sunday</h6>
+                            <p> 8:00am - 5:00pm</p>
+                        </h6>
+                        </div>
+                        <br>
+                        <a class="hero-btn" href="">Appointment</a>
+                    </div>
+                </div>
+            </div>
+                  <!-- City content -->
+                <div class="City">
+                
+                    <div>
+                        <h3>Search with City</h3>
+                       
+                        <select>
+                            <option selected>Select A City</option>
+                            <option value="1">Omaha</option>
+                            <option value="2">Lincoln</option>
+                            <option value="3">Council bluffs</option>
+                        </select>
+                        <a class="hero-btn" href="">Search City</a>
+                    </div>
+                </div>
+                <div class="Appointment">
+                
+                    <div>
+                        <h3 >Make Appointment</h3>
+                        <h3> we will Help you Find care for your Loved ones <br>
+                            Call fro Free Care Consultation<br>
+                            +402-320-2702</h3>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+    <!-- Banner  end Start -->
+
+
+    <!-- Program and Services Section -->
+  <section class="Services">
+    <h1>Services We offer</h1>
+    <p>Through special telehealth equipment provided to clients, the telehealth services offered by Hillcrest Home Care.</p>
+    <div class="row">
+        <div class="services-list">
+            <h3>Medical Home Care</h3>
+            <p>Through regular medical updates, doctors and nurses stay informed about your health status, ensuring they can provide optimal care through innovative programs. This proactive approach enables them to assess your condition accurately and tailor their medical interventions to your specific needs, ultimately enhancing the quality of healthcare delivery. </p>
+        </div>
+        <div class="services-list">
+            <h3>Personal Care</h3>
+            <p>Personal care services provide essential assistance with daily activities such as bathing, grooming, and dressing. Caregivers offer compassionate support to help individuals maintain their independence and well-being. By addressing these needs, personal care services enable individuals to live comfortably and safely in their own homes. </p>
+            
+        </div>
+        <div class="services-list">
+            <h3>Home Health Services</h3>
+            <p>Home health services deliver personalized care, including skilled nursing, therapy, and assistance with daily tasks, within the comfort of one's home. They cater to individuals recovering from illness, managing chronic conditions, or seeking long-term care solutions. Home health services promote independence and improve overall well-being.</p>
+            
+        </div>
+    </div>
+    <section class="progran">
+        <div class="row3">
+    <div class="programs-coll">
+        <img src="images/Before.jpeg"></div>
+        <div class="programs-coll">
+        <img src="images/After.jpeg"></div>
+        <div class="programs-coll">
+        <img src="images/testimonial-1 .jpeg"></div>
+    </div>
+
+</section>
+</section>
+
+<!---program view-->
+
+<section class="programs">
+    <h1>OUR MOST POPULAR SERVICES</h1>
+    <p>Full support for fuller lives</p>
+    <div class="row1">
+        <div class="programs-col">
+            <img src="images/2.jpg">
+            <h4>MEMORY CARE</h4>
+        </div>
+        <div class="programs-col">
+            <img src="images/care-companionship.jpeg">
+            <h4>CARE AND COMPANIONSHIP</h4>
+        </div>
+        <div class="programs-col">
+            <img src="images/fall-prevention.jpeg">
+            <h4>FALL AND INJURY PREVENTION</h4>
+        </div>
+        <div class="programs-col">
+            <img src="images/wellness.jpeg">
+            <h4>WELLNESS</h4>
+        </div>
+    </div>
+</section>
+<!--Contact us-->
+
+<section class="Contact">
+    <h1>To Know More about our services and locations</h1>
+    <a href="Contac.html" class="hero-btn"> CONTACT US </a>
+
+
+</section>
+
+    </section>
+    <!-- JavaScript for Menu -->
+    <script>
+
+        
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0"; 
+        }
+        function hideMenu() {
+            navLinks.style.right = "-250px";
+        }
+    </script>
+
+
+<!--FOOTER-->
+<SECTION class="footer">
+<h4>
+    About Us
+</h4>
+<p>
+    Find by Clicking to our social media account
+</p>
+<!-- .site-info -->
+<div class="sitefooter">
+
+    <div class="sitefooter"> 
+        <a class="sitefooterphone" href="tel:(402) 505-7300"> 
+            
+              <a class="sitefooterlink"href="https://Bilanhomecarefranchise.com/"target="blank">Own a Franchise</a>
+        
+        <p class="sitefooterheading">FOLLOW US ONLINE</p>
+    </div>
+
+<div class="icons"> 
+    <i class="fab fa-facebook-f"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-linkedin"></i>
+</div>
+<br>
+<br>
+
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+   
+
+</SECTION>
+</body>
+</html>

@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/Testimonial-2.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+nav img {
+    width: 150px;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+
+
+.nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: black;
+    display: block;
+    margin: auto;
+    transition: 2s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+.text-box {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 62px;
+}
+
+.text-box p {
+    margin: 40px;
+    font-size: 14px;
+    color: white;
+}
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    border: 1px solid #800080;
+    transition: 1s;
+}
+
+nav .fa {
+    display: none;
+}
+
+@media (max-width: 700px) {
+    .text-box h1 {
+        font-size: 20px;
+    }
+
+    .nav-links ul li {
+        display: block;
+    }
+
+    .nav-links {
+        position: absolute;
+        background: black;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+
+    nav .fa {
+        display: block;
+        color: green;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .nav-links ul {
+        padding: 30px;
+    }
+}
+
+
+
+.container-fluid {
+    background-color: #f3eff5; 
+    color: rgb(0, 0, 0); 
+    padding: 50px;
+    padding-inline: 50px;
+}
+
+.container {
+    padding: 50px;
+}
+
+
+h1, h3, h4, h5 {
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.shining-heading {
+    background-image: linear-gradient(90deg, rgba(243, 237, 243, 0), rgba(93, 7, 74, 0.5), rgba(252, 246, 253, 0));
+    animation: shining-animation 2s infinite;
+}
+
+/* Animation */
+@keyframes shining-animation {
+    0% {
+        background-position: -100%;
+    }
+    100% {
+        background-position: 200%;
+    }
+
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+}
+.btn {
+    display: inline-block;
+    padding: 10px 5px;
+    background-color: #480632; 
+    color: #faf8fb; 
+    text-decoration: chocolate;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    background-color: #f6f5f7; 
+    color: rgb(92, 3, 74); 
+    padding: 10px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+    margin-left: 300;
+}
+
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.wow {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.fadeInUp {
+    animation-name: fadeInUp;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .btn {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+/* Contact Section */
+ 
+.Contact {
+    margin: 100px auto;
+    width: 80%;
+    background-color: black;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.Contact h1 {
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+
+.vacancy h3 {
+    color: navy;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .Contact h1 {
+        font-size: 20px;
+    }
+}
+
+
+/* Footer Section */
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.icons i {
+    color: orange;
+    margin: 13px;
+    cursor: pointer;
+    padding: 18px;}
+
+    .sitefooter {
+        text-align: center;
+        background-color: #f0f0f0;
+        padding: 20px;
+    }
+    
+    .sitefooterphone {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: #333;
+    }
+    
+    .sitefooterlink {
+        text-decoration: none;
+        color: #007bff;
+    }
+    
+    .sitefooterheading {
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .icons {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .icons i {
+        font-size: 20px;
+        margin: 0 10px;
+    }
+    
+    /* Media Queries for responsiveness */
+    @media (max-width: 768px) {
+        .sitefooterphone {
+            font-size: 14px;
+        }
+        
+        .icons i {
+            font-size: 16px;
+        }
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2;
+    }
+    
+    .container {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    .form-group {
+        margin-bottom: 20px;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    textarea {
+        resize: vertical;
+    }
+    
+    button[type="submit"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    button[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+

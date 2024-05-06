@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilan Home Care Website Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="Style3.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="Index.html"><img src="images/logo.png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                    <li><a href="Service.html">Program and Services</a></li>
+                    <li><a href="Apply.html">Careers</a></li>
+                    <li><a href="Contac.html">Contact us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Caring Hearts, Comforting Hands</h1>
+            <p>Personalized Nursing Care from the Comfort of Your Own Home</p>
+            <a href="Contact.html" class="hero-btn">Ask Us A Question!</a>
+        </div>
+    </section>
+
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div>
+                        <h3 class="shining-heading">About Us</h3>
+                        <h1 class="shining-heading">The World's Best Home Care Clinic That You Can Trust</h1>
+                    </div>
+                    <h4 class="shining-heading">Bilan Home Care Vision and Mission </h4>
+                    <p>Bilan Home Care, established in 2024, is a beacon of compassionate care and support for individuals in need. With a commitment to excellence and a deep-seated passion for enhancing the quality of life for every individual we serve, we pride ourselves on providing personalized nursing care from the comfort of one's own home.
+    
+    Our journey began with a simple yet profound vision: to create a nurturing environment where caring hearts and comforting hands come together to make a difference in the lives of our clients. Since our inception, we have dedicated ourselves to delivering the highest standard of care, tailored to meet the unique needs and preferences of each individual under our care.
+                    
+    At Bilan Home Care, we understand the importance of fostering independence, dignity, and well-being. Whether it's assistance with daily activities, medication management, or simply companionship, our team of dedicated professionals is committed to providing compassionate support every step of the way.
+                    
+    Driven by our core values of integrity, empathy, and professionalism, we strive to exceed expectations and set new standards of excellence in home care services. With a relentless focus on innovation and continuous improvement, we are constantly evolving to meet the evolving needs of our clients and the communities we serve.
+                    
+    As we embark on this journey, we invite you to experience the Bilan Home Care difference – where every moment matters, and every individual is valued, respected, and cherished.</p>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h5 class="shining-heading">Award Winning</h5>
+                            <h5 class="shining-heading">Professional Staff</h5>
+                        </div>
+                        <div class="col-sm-6">
+                            <h5 class="shining-heading">24/7 Opened</h5>
+                            <h5 class="shining-heading">Fair Prices</h5>
+                        </div>
+                    </div>
+                    <a href="Contact.html" class="btn btn-primary py-3 px-5 mt-4">Make Appointment</a>
+                </div>
+                <div class="col-lg-5" style="min-height: 500px;">
+                    <img class="w-100 h-100 rounded" src="images/Testimonial-2.jpeg" alt="Image">
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- About End -->
+
+    <!-- Contact us -->
+    <section class="Contact">
+        <h1>To Know More about our services and locations</h1>
+        <a href="Contact.html" class="hero-btn"> CONTACT US </a>
+    </section>
+
+    <!-- JavaScript for Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0"; 
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Find by Clicking to our social media account</p>
+        <div class="sitefooter">
+            <a class="sitefooterphone" href="tel:(402) 505-7300"></a>
+            <a class="sitefooterlink" href="https://Bilanhomecarefranchise.com/" target="_blank">Own a Franchise</a>
+            <p class="sitefooterheading">FOLLOW US ONLINE</p>
+        </div>
+        <div class="icons"> 
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </section>
+</body>
+</html>
+

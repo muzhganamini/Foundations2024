@@ -1,0 +1,500 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/Testimonial-2.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+nav img {
+    width: 150px;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+
+
+.nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: black;
+    display: block;
+    margin: auto;
+    transition: 2s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+.text-box {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 62px;
+}
+
+.text-box p {
+    margin: 40px;
+    font-size: 14px;
+    color: white;
+}
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    border: 1px solid #800080;
+    transition: 1s;
+}
+
+nav .fa {
+    display: none;
+}
+
+@media (max-width: 700px) {
+    .text-box h1 {
+        font-size: 20px;
+    }
+
+    .nav-links ul li {
+        display: block;
+    }
+
+    .nav-links {
+        position: absolute;
+        background: black;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+
+    nav .fa {
+        display: block;
+        color: green;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .nav-links ul {
+        padding: 30px;
+    }
+}
+
+/*Banner section*/
+
+.sections-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-direction: row;
+   
+}
+
+/* Styles for Hours section */
+.Hours {
+  
+   flex: 1;
+    border-radius: 30px;
+    padding: 100px 100px;
+    margin-bottom: 20px; 
+    margin-top: 20px;
+    text-align: center;
+    margin:20px ;
+   
+      
+}
+
+.City {
+   
+   
+   
+    border-radius: 10px;
+    padding: 80px 80px;
+    margin-bottom: 40px;
+    margin-top: 20px; 
+margin: 20px;}
+
+
+
+
+    .Appointment {
+          
+      
+        border-radius: 30px;
+        padding: 100px 80px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        text-align: center;
+        margin: 20px;
+        
+     }
+   
+
+
+
+/* Media query for tablet and above */
+@media screen and (max-width: 700px) {
+    .Hours,
+    .City,
+    .Appointment {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+}
+
+/* Styles for Opening Hours */
+.Hours {
+    background-color: #000002; 
+}
+
+.Hours h3 {
+    margin-bottom: 20px;
+    color: #fff; 
+}
+.Hours h6 {
+    margin-bottom: 20px;
+    color: #fff; 
+    font-weight: bolder;
+}
+.Hours p {
+    margin-bottom: 20px;
+    color: #fff; 
+}
+
+/* Styles for Search with City */
+.City {
+    background-color: #b95b9d; 
+    border: 5px solid #ccc;
+}
+
+.City h3 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #02000c; 
+}
+
+.City select,
+.City input[type="text"] {
+    width: calc(100% - 22px);
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.City select {
+    background-color: #f8f4f4;
+}
+
+/* Styles for Make Appointment */
+.Appointment {
+    background-color: #000001; 
+}
+
+.Appointment h3 {
+    margin-bottom: 20px;
+    color: #fff; 
+}
+
+.Appointment h2 {
+    font-size: 24px;
+    color: #fff; /* white */
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+/* Services Section */
+
+.Services {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.Services h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.Services p {
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-list {
+    flex-basis: 31%;
+    background: papayawhip;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+.services-list h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.services-list:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+/* Programs Section */
+
+.programs {
+    width: 80%;
+    margin: auto;
+    padding: 60px;
+    text-align: center;
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+}
+
+.programs-col {
+    flex-basis: calc(25% - 20px); 
+    margin: 10px; 
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.programs-col img {
+    width: 100%;
+}
+
+.programs-col h4 {
+    font-size: 10px; 
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Contact Section */
+ 
+.Contact {
+    margin: 100px auto;
+    width: 80%;
+    background-color: black;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.Contact h1 {
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+@media (max-width: 600px) {
+    .Contact h1 {
+        font-size: 20px;
+    }
+}
+
+/* Footer Section */
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.icons i {
+    color: orange;
+    margin: 13px;
+    cursor: pointer;
+    padding: 18px;}
+
+    .sitefooter {
+        text-align: center;
+        background-color: #f0f0f0;
+        padding: 20px;
+    }
+    
+    .sitefooterphone {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: #333;
+    }
+    
+    .sitefooterlink {
+        text-decoration: none;
+        color: #007bff;
+    }
+    
+    .sitefooterheading {
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .icons {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .icons i {
+        font-size: 20px;
+        margin: 0 10px;
+    }
+    
+    /* Media Queries for responsiveness */
+    @media (max-width: 768px) {
+        .sitefooterphone {
+            font-size: 14px;
+        }
+        
+        .icons i {
+            font-size: 16px;
+        }
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2;
+    }
+    
+    .container {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    .form-group {
+        margin-bottom: 20px;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    textarea {
+        resize: vertical;
+    }
+    
+    button[type="submit"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    button[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+

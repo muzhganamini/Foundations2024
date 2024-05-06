@@ -4,9 +4,9 @@
 }
 
 .header {
-    min-height: 100vh;
+    min-height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/1.jpeg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/Testimonial-2.jpeg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -18,6 +18,9 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+
+
+
 
 nav img {
     width: 150px;
@@ -34,6 +37,8 @@ nav img {
     padding: 8px 12px;
     position: relative;
 }
+
+
 
 .nav-links ul li a {
     color: white;
@@ -59,7 +64,7 @@ nav img {
     width: 90%;
     color: white;
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -130,91 +135,6 @@ nav .fa {
     }
 }
 
-/* Services Section */
-
-.Services {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-}
-
-.Services h1 {
-    font-size: 36px;
-    font-weight: 600;
-}
-
-.Services p {
-    color: black;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 22px;
-    padding: 10px;
-}
-
-.row {
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.services-list {
-    flex-basis: 31%;
-    background: papayawhip;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    box-sizing: border-box;
-    transition: 1s;
-}
-
-.services-list h3 {
-    text-align: center;
-    font-weight: 600;
-    margin: 10px 0;
-}
-
-.services-list:hover {
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
-}
-
-@media (max-width: 700px) {
-    .row {
-        flex-direction: column;
-    }
-}
-
-/* Programs Section */
-
-.programs {
-    width: 80%;
-    margin: auto;
-    padding: 60px;
-    text-align: center;
-}
-
-.row1 {
-    display: flex; /* Ensure the container is a flex container */
-    flex-wrap: wrap; /* Allow images to wrap to the next line if needed */
-    justify-content: space-between; /* Spread items evenly along the row */
-}
-
-.programs-col {
-    flex-basis: calc(25% - 20px); /* Set width for each column with margin */
-    margin: 10px; /* Add margin between columns */
-    border-radius: 10px;
-    position: relative;
-    overflow: hidden;
-}
-
-.programs-col img {
-    width: 100%;
-}
-
-.programs-col h4 {
-    font-size: 10px; /* Adjust font size as needed */
-    text-align: center;
-    margin-top: 20px;
-}
 
 /* Contact Section */
  
@@ -234,11 +154,22 @@ nav .fa {
     padding: 0;
 }
 
+
+.vacancy h3 {
+    color: navy;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
 @media (max-width: 600px) {
     .Contact h1 {
         font-size: 20px;
     }
 }
+
 
 /* Footer Section */
 
@@ -364,3 +295,61 @@ nav .fa {
         background-color: #0056b3;
     }
 
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 50px;
+        margin-top: 20px;
+    }
+    
+    h2 {
+        text-align: center;
+    }
+    
+    .contact-form {
+        margin-top: 20px;
+    }
+    
+    form {
+        display: grid;
+        gap: 10px;
+    }
+    
+    label {
+        font-weight: bold;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    
+    input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        background-color: #000102;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+        .container {
+            padding: 10px;
+        }
+    
+        form {
+            grid-template-columns: 1fr;
+        }
+    
+        input[type="submit"] {
+            margin-top: 10px;
+        }
+    }
